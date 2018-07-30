@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KishActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="6"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/kish08"
+            android:layout_weight="2"
+            />
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/kish03" />
+
+        <ImageView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/kish06" />
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/kish05" />
+
+            <ImageView
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/kish04" />
+
+        </LinearLayout>
+
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20sp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/kish02" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <Button
+                android:id="@+id/homee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="خانه"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#81e2ef"
+                />
+
+            <Button
+                android:id="@+id/shomal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="شمال"
+                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#81e2ef"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
